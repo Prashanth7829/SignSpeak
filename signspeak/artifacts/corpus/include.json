@@ -1,0 +1,34 @@
+{
+  "classes": 262,
+  "training_clips": 3101,
+  "epoch": 43,
+  "validation": {
+    "clips": 340,
+    "loss": 0.5684376358985901,
+    "video_accuracy": 0.8411765098571777,
+    "frame_accuracy": 0.44117647409439087
+  },
+  "test": {
+    "clips": 816,
+    "loss": 0.5722007155418396,
+    "video_accuracy": 0.8443627953529358,
+    "frame_accuracy": 0.43566179275512695
+  },
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "minimum_scores": {
+    "video": 0.25,
+    "image": 0.4500000000000002
+  },
+  "accepted_test_predictions": {
+    "video": {
+      "accepted": 806,
+      "correct": 687,
+      "total": 816
+    },
+    "image": {
+      "accepted": 418,
+      "correct": 334,
+      "total": 816
+    }
+  }
+}
